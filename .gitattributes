@@ -1,2 +1,81 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #hola{
+
+    }
+    body{
+        background-color: yellow;
+        /* background-image: url(prueba.jpg);
+        width: 1200px;
+        background-repeat:no-repeat ; */
+    }
+    fieldset{
+        border-color: red;
+    }
+    button, input{
+        background-color: pink;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    a{
+        padding-left: 1250px;
+    }
+</style>
+<body background="prueba.jpg">
+    <ul>
+        <li>hola <img src="flechaprueba.png" alt="" width="10px" height="10px"></li>
+    </ul>
+    
+<ol>
+    <li>hola</li>
+</ol>
+<p><a href="enlace.com">Hola</a></p>
+<input placeholder="Hola">
+<br>
+<input type="submit">
+<button>E N V I A R</button>
+<form action=""></form>
+<form action="">
+    <input type="radio" name="" id="">Hola
+    <input type="radio">
+</form>
+<form action="">
+    <fieldset>
+        <legend>Hola</legend> 
+        <button>Tamo activo</button>
+        <input type="text">
+        <br><input type="submit">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="required"><br>
+        <input type="radio" name="hola">Hola
+        <input type="radio" name="hola">Ho-Adio
+        <input type="radio" name="hola">Adios<br>
+        <input type="checkbox">Hola
+        <input type="checkbox">Hola
+        <input type="checkbox">Hola
+        <br><b>Saludos</b>
+        <ol>
+            <LI>Hola</LI>
+        </ol>
+        <br><b>Saludos2</b>
+        <ul>
+            <li>Klk</li>
+        </ul>
+    </fieldset> 
+</form>
+
+<div>
+    <a href=”#> Ir a algún lado </a>
+<div>
+</body>
+</html>
