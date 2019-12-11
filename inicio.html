@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santo Kapra</title>
+    <link rel="icon" href="Imagenes/cabra.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+body{
+        background-image: url(Imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+}
+
+h1.titulo, h2.titulo{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+#divs{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    background-color:#B5659F;
+    margin-left: 450px;
+    margin-right: 500px;
+    border-radius:20px ;
+    padding-bottom:5px ;
+    padding-top: 5px;
+}
+/* div{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    background-color:#B5659F;
+    margin-left: 450px;
+    margin-right: 500px;
+    border-radius:20px ;
+    padding-bottom:5px ;
+    padding-top: 5px;
+} */
+ul{
+    background-color:#B5659F;
+    
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-left: -8px;
+    margin-right:-8px ;
+}
+li{
+    display: inline;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li.primerli:hover{
+    font-weight: bold;
+    font-size: 120%;
+}
+.barselona{
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grande:hover{
+font-size: 120%;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+div.div1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    background-color:#B5659F;
+    margin: 0px;
+    border-radius:20px ;
+    padding-bottom:5px ;
+    padding-top: 5px;
+}
+/* img#img1{
+    top: 30px;
+    position:absolute;
+}
+img#img2{
+    top: 90px;
+    position: absolute;
+}
+img#img3{
+    top: 150px;
+    position: absolute;
+}
+img#img4{
+    top: 210px;
+    position: absolute;
+} */
+.fondito{
+    background-color: #B5659F;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+}
+.ingles{
+    position: absolute;
+    top: 20px;
+    left: 1300px;
+}
+
+.contenido-all{
+    width:210px;
+    margin: auto;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 50px;
+}
+.contenido-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+.contenido-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.contenido-carrousel figure{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+}
+.contenido-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.contenido-carrousel figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(2){
+    transform: rotateY(45deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(3){
+    transform: rotateY(90deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(4){
+    transform: rotateY(135deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(5){
+    transform: rotateY(185deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(6){
+    transform: rotateY(225deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(7){
+    transform: rotateY(270deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(8){
+    transform: rotateY(315deg) translateZ(300px);
+}
+.contenido-carrousel figure:nth-child(9){
+    transform: rotateY(360deg) translateZ(300px);
+}
+
+.contenido-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.contenido-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+</style>
+</head>
+<body>
+<h1 class="titulo"><label class="grande">S</label><label class="grande">a</label><label class="grande">n</label><label class="grande">t</label><label class="grande">o</label> <label class="grande">K</label><label class="grande">a</label><label class="grande">p</label><label class="grande">r</label><label class="grande">a</label></h1>
+<h2 class="titulo">Club</h2>  
+<br><br><br><br>
+<div id="divs">Somos el local de moda en <label class="barselona">BCN</label>.<br><br> El único activo los 365 días del año.</div> 
+<br><br>
+<ul>
+    <li class="primerli"><a href="entradas.html">Entradas</a></li>
+    <li class="primerli"><a href="carta.html">Carta</a></li>
+    <li class="primerli"><a href="eventos.pdf">Eventos</a></li>
+    <li class="primerli"><a href="https://www.tripadvisor.es/">Opiniones</a></li>
+</ul>
+
+<div class="contenido-all">
+    <div class="contenido-carrousel">
+        <figure><img src="Imagenes/img1.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img2.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img3.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img4.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img5.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img6.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img7.png" alt=""></figure>
+        <figure><img src="Imagenes/img8.jpg" alt=""></figure>
+        <figure><img src="Imagenes/img9.jpg" alt=""></figure>
+    </div>
+</div>
+
+
+<br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+<div class="div1"><a href="https://www.google.com/search?rlz=1C1CHBF_esES853ES853&tbm=lcl&sxsrf=ACYBGNQEFwOKefocwVdZuvqlSAT77C3tAg%3A1575910458776&ei=OnzuXYH7Lrmp1fAPrpWQyAM&q=Ctra.+de+Matar%C3%B3%2C+Km.+629%2C+08911+Badalona%2C+Barcelona&oq=Ctra.+de+Matar%C3%B3%2C+Km.+629%2C+08911+Badalona%2C+Barcelona&gs_l=psy-ab.3..33i22i29i30k1.60642.60642.0.61446.1.1.0.0.0.0.156.156.0j1.1.0....0...1c.1.64.psy-ab..0.1.155....0.-jz1D-YwhjY">Encuentranos</a> en Ctra. de Mataró, Km. 629, 08911 Badalona, Barcelona</div> 
+<br><div id="divs">Santo Kapra <b>2019</b> © All Rights Reserved</div>
+<table class="fondito">
+<tr>
+    <td><a href="https://www.instagram.com/?hl=es"><img id="img1" src="Imagenes/intagram.png" alt="" width="40px" height="40px"></a></td>
+</tr>
+<tr>
+    <td><a href="https://twitter.com/?lang=es"><img id="img2" src="Imagenes/twiter.png" alt="" width="40px" height="40px"></a</td>
+</tr>
+<tr>
+    <td><a href="https://www.youtube.com/?hl=es&gl=ES"><img id="img3" src="Imagenes/yutube.png" alt="" width="40px" height="40px"></a></td>
+</tr>
+<tr>
+    <td><a href="https://es.linkedin.com/"><img id="img4" src="Imagenes/linkdn.png" alt="" width="40px" height="40px"></a></td>
+</tr>
+</table>
+<a href="inicioenglish.html"><img class="ingles" src="Imagenes/ingles.png" alt="" width="30px" height="30px"></a>
+
+</body>
+</html>
